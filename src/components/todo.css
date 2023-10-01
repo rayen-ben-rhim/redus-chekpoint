@@ -1,0 +1,71 @@
+.todo_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+}
+.contant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;   
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;  
+    border-radius: 20px;
+}
+.search input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 10px;
+    margin-right: 3px;
+}
+.search button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    
+    background-color: #ccc;
+    margin-left: 0;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+.Delate{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.edit{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
